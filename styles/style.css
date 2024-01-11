@@ -1,3 +1,5 @@
-h1 {
-  color: purple;
+/* Base styles */
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
 }
