@@ -10,7 +10,7 @@
 .work__description {
   max-width: 60ch;
   font-size: var(--size-sm);
-  color: var(--slate-600);
+  color: var(--clr-slate-600);
   margin: 1rem auto;
 }
 
