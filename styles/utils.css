@@ -49,7 +49,7 @@
 
 /* lazy-loading images*/
 .loading {
-  filter: blur(30px) grayscale(100%);
+  filter: blur(35px) grayscale(100%);
 }
 
 .loaded {
