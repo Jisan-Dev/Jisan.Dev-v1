@@ -47,6 +47,16 @@
   margin-top: 5rem;
 }
 
+/* lazy-loading images*/
+.loading {
+  filter: blur(30px) grayscale(100%);
+}
+
+.loaded {
+  filter: blur(0) grayscale(0);
+  transition: 0.7s ease-in-out;
+}
+
 /* xs */
 @media (min-width: 475px) {
   .container {
