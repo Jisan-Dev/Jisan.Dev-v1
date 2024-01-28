@@ -16,7 +16,7 @@
 }
 
 .hero__subtitle {
-  color: var(--clr-slate-800);
+  color: var(--clr-slate-600);
   font-size: var(--size-base);
   line-height: 0.9;
 }
