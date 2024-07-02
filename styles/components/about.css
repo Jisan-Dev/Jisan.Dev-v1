@@ -41,7 +41,10 @@
   margin-left: 0.5em;
 }
 .about__ul-container {
+  max-width: 420px;
   display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
 /* responsive */
