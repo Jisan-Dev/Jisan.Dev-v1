@@ -63,6 +63,18 @@
   display: none;
 }
 
+.work__cta {
+  color: var(--clr-slate-600);
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.work__cta strong {
+  color: var(--clr-indigo);
+}
+
 /* xs */
 @media (min-width: 475px) {
   .work__title {
