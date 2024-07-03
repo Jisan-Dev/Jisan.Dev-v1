@@ -68,11 +68,7 @@
   font-weight: 600;
   font-size: 18px;
   text-align: center;
-  margin-top: 40px;
-}
-
-.work__cta strong {
-  color: var(--clr-indigo);
+  margin-top: 60px;
 }
 
 /* xs */
