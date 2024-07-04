@@ -27,6 +27,10 @@
   width: 360px;
 }
 
+.contact-input:focus {
+  outline: none;
+}
+
 /* xs */
 @media (min-width: 475px) {
   .contact {
