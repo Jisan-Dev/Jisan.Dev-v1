@@ -53,6 +53,11 @@
 
 .featured__img-wrapper {
   position: relative;
+  overflow: hidden;
+}
+
+.featured__img-wrapper img:hover {
+  transform: scale(1.05);
 }
 
 /* .featured__img-wrapper::after {

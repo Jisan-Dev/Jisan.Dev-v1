@@ -21,6 +21,20 @@
 
 .work__img-wrapper {
   position: relative;
+  overflow: hidden;
+  width: 100% !important;
+}
+
+.work__img-wrapper img {
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.work__img-wrapper img:hover {
+  /* transform: scale(1.05); */
+  object-position: bottom;
+  transition: all 6s;
 }
 
 /* .work__img-wrapper::after {
