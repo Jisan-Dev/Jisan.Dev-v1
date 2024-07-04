@@ -25,6 +25,22 @@
 
 .contact__form {
   width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid var(--clr-rose);
+  padding: 20px;
+  box-shadow: 2px 2px 5000px 0px #e11d4840;
+  border-radius: 12px;
+  background-color: transparent;
+}
+
+.contact-input {
+  background: transparent;
+  border: 1px solid var(--clr-rose);
+  border-radius: 12px;
+  padding: 10px;
+  color: var(--clr-light);
 }
 
 .contact-input:focus {
