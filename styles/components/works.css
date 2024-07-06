@@ -59,6 +59,7 @@
 
 .work__project-description1 {
   font-size: var(--size-sm);
+  font-weight: 500;
   color: var(--clr-slate-600);
   margin: 1rem 0;
 }
@@ -217,6 +218,11 @@
   .work__project-subtitle {
     font-size: var(--size-lg);
   }
+  .work__img-wrapper img {
+    height: 560px;
+    object-fit: cover;
+    object-position: top;
+  }
 }
 
 /* lg */
@@ -272,7 +278,7 @@
   }
 
   .work__container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 }
