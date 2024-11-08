@@ -1,9 +1,10 @@
-import LocomotiveScroll from 'locomotive-scroll';
-import '../../styles/smooth.css';
+import LocomotiveScroll from "locomotive-scroll";
+import "../../styles/smooth.css";
 
 const scroll = new LocomotiveScroll({
-  el: document.querySelector('[data-scroll-container]'),
+  el: document.querySelector("[data-scroll-container]"),
   smooth: true,
 });
 
-console.log('first');
+scroll();
+console.log("first");
