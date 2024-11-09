@@ -21,10 +21,13 @@
 }
 
 .featured__description {
-  max-width: 60ch;
+  max-width: 100ch;
   color: var(--clr-slate-400);
   font-size: var(--size-sm);
   margin: 1rem 0;
+}
+.featured__description span {
+  display: block;
 }
 
 .featured__info-container {

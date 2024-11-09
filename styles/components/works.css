@@ -123,12 +123,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      'image1 content1'
-      'content2 image2'
-      'image3 content3'
-      'content4 image4'
-      'image5 content5'
-      'content6 image6';
+      "image1 content1"
+      "content2 image2"
+      "image3 content3"
+      "content4 image4"
+      "image5 content5"
+      "content6 image6";
     place-items: center;
   }
 
@@ -288,5 +288,10 @@
   .work__container {
     width: 70%;
     margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .work__project-website {
+    text-align: center;
   }
 }

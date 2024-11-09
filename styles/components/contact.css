@@ -111,4 +111,8 @@
 }
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+@media (max-width: 500px) {
+  .contact__form {
+    width: 320px;
+  }
+}
