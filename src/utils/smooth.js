@@ -6,5 +6,5 @@ const scroll = new LocomotiveScroll({
   smooth: true,
 });
 
-scroll();
-console.log("first");
+// scroll();
+// console.log("first");
